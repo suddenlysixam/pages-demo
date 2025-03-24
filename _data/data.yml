@@ -1,0 +1,215 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+  position: right # position of the sidebar : left or right
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
+
+  # Profile information
+  name: Dr. Heinz Doofenshmirtz
+  tagline: Evil Scientist | Inventor | Founder & CEO of Doofenshmirtz Evil Incorporated
+  avatar: doof.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+  # Sidebar links
+  email: doof@evilinc.com
+  phone: 555 123 4567
+  timezone: America/Danville # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  # citizenship:
+  website: https://phineasandferb.fandom.com/wiki/Heinz_Doofenshmirtz # Include the full website URL, including "http://" or "https://".
+  linkedin: doofenshmirtz-evilinc
+  # xing: alandoe
+  # github: jekyll
+  # telegram: # add your nickname without '@' sign
+  # gitlab:
+  # bitbucket:
+  # bluesky: "@jekyllrb.bsky.social" # Specify your full Bluesky handle
+  # stack-overflow: # Number/Username, e.g. 123456/alandoe
+  # codewars:
+  # goodreads: # Number-Username, e.g. 123456-alandoe
+  # mastodon: # Please include your full Mastodon link here.
+  # hackerrank: # Please provide your HackerRank username.
+  # leetcode: # Please provide your LeetCode username.
+  # pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+
+  languages:
+    title: Languages
+    info:
+      - idiom: English
+        level: Native
+
+  interests:
+    title: Interests
+    info:
+      - item: Taking over the Tri-State Area
+        # link:
+      - item: Baking surprisingly good cupcakes
+      - item: Watching soap operas (particularly General Hospital)
+      - item: Writing catchy jingles for Evil Incorporated
+      - item: Collecting lawn gnomes (trauma-induced hobby)
+      - item: Hosting elaborate yet impractical revenge schemes
+      - item: Unwinding with dramatic evil laughter sessions
+
+career-profile:
+  title: Career Profile
+  summary: |
+    Highly ambitious and eccentric scientist with extensive experience in evil invention design, monologuing, and highly specific vengeance schemes. Adept at building elaborate and unnecessarily complex contraptions, particularly those ending in "-inator." Seeking an opportunity to leverage my expertise in doomsday device engineering and mildly evil science for world domination—or at least regional influence.
+education:
+  title: Education
+  info:
+    - degree: Ph.D. in Evil Science
+      university: Evil Science Academy – Undisclosed Location
+      time: 1988
+      details: |
+        - Dissertation: "The Inevitability of Inators: A Study in Overcomplicated World Domination Devices"
+        - Extracurriculars: Mad scientist club, Doomsday Device Engineering Society
+
+experiences:
+  title: Experiences
+  info:
+    - role: Founder & CEO
+      time: 1990 – Present
+      company: Doofenshmirtz Evil Incorporated – Danville, Tri-State Area
+      details: |
+        - Designed, built, and deployed over 500 unique "-inators," each with a highly specific function, including but not limited to: Shrinkinator, Giant-inator, Age Accelerator-inator, and the Unstoppable-inator.
+        - Consistently thwarted by a single secret agent platypus, demonstrating resilience and adaptability in overcoming setbacks.
+        - Delivered compelling monologues explaining each evil scheme in unnecessary detail.
+        - Created and enforced a strict Evil Incorporated brand identity, including a catchy jingle and distinctive skyscraper design.
+        - Briefly took over the Tri-State Area (multiple attempts, results varied).
+    - role: Intern / Unpaid Laborer
+      time: 1970 – 1989
+      company: Various Odd Jobs – Gimmelshtump
+      details: |
+        - Raised by ocelots after being left at the doorstep in a tragic backstory event.
+        - Served as a garden gnome for extended periods due to family neglect.
+        - Attempted to take over the local bratwurst industry before being run out of town.
+
+certifications:
+  title: Awards & Achievements
+  list:
+    - name: "Most Persistent Evil Genius"
+      start: 5 years running
+      # end: 2021
+      organization: Evil Scientists Monthly
+      # credentialid: 111-222
+      # credentialurl: www.google.com
+      # credentialname: Google
+      # details: |
+      #   Details about cert. Lorem ipsum dolor sit amet, consectetur
+      #   adipiscing elit.
+      #   Nullam eget orci purus. Nullam ultrices neque nibh.
+      #   Aenean fermentum, felis vulputate suscipit accumsan,
+      #   sem enim bibendum augue, sed convallis arcu lacus at dui.
+      #   Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+      #   Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+      #   Praesent venenatis erat non augue suscipit consectetur.
+
+      #   Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+      #   fringilla vel. Ut euismod, sem sed vulputate venenatis,
+      #   justo diam viverra velit, sed rhoncus leo leo eu justo.
+      #   Suspendisse placerat risus ante, sed porta nisi blandit at.
+    - name: "Best Evil Lair Design"
+      organization: Evil Architect Digest
+    - name: Briefly elected Mayor of Danville (accidentally)
+    - name: Successfully reconnected with estranged daughter, Vanessa (greatest achievement to date)
+
+projects:
+  title: Projects
+  #   intro: >
+  #     You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: The Shrinkinator
+      # link: "#"
+      tagline: "Successfully miniaturized various objects and, briefly, a skyscraper before unintended side effects caused self-reversal."
+    - title: The Giant-inator
+      tagline: "Increased the size of everyday objects to massive proportions, leading to unexpected city-wide destruction (lesson learned: bigger is not always better)."
+    - title: The Age Accelerator-inator
+      tagline: "Temporarily aged various individuals, including self, causing significant back pain and reevaluation of goals."
+    - title: The Unstoppable-inator
+      tagline: "Created an unstoppable force, which ironically stopped working due to unforeseen technical difficulties."
+    - title: The Voice-inator
+      tagline: "Designed to alter voices for deception purposes, but led to an unfortunate bout of singing everything like a musical."
+
+# oss:
+#   title: OSS Contributions
+#   intro: >
+#     You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#   contributions:
+#     - title: Tempo
+#       link: "#"
+#       tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#     - title: Atom
+#       link: "#"
+#       tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#     - title: Delta
+#       link: "#"
+#       tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+# publications:
+#   title: Publications
+#   intro: |
+#     You can list your publications in this section. Lorem ipsum dolor sit
+#     amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#     bibendum fringilla a eu lectus.
+#   papers:
+#     - title: The Art of Computer Programming
+#       link: "#"
+#       authors: Donald E. Knuth
+#       conference: Addison-Wesley, 1968
+
+#     - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#       link: "#"
+#       authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#       conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+#     - title: A syntax directed compiler for Algol 60
+#       link: "#"
+#       authors: Edgar T. Irons
+#       conference: "Comm. ACM 4 (1961), 51–55"
+
+recommendations:
+  title: Recommendations
+  list:
+    - person: Perry the Platypus
+      email: Contact unavailable, likely hiding
+      # phone: 012 345 6789
+      role: Unwilling Nemesis
+      recommendation: |
+        *Platypus noises*
+    - person: Vanessa Doofenshmirtz
+      # email: larah@example.com
+      # phone: 012 345 6789
+      role: (Daughter)
+      recommendation: |
+        "Ugh, do I have to be on this?"
+    - person: Roger Doofenshmirtz
+      role: Archrival, Mayor of Danville
+      recommendation: |
+        "No comment."
+
+skills:
+  title: Skills &amp; Proficiency
+
+  toolset:
+    - name: Evil Invention & Engineering
+      level: 100%
+
+    - name: Dramatic Monologuing
+      level: 100%
+
+    - name: Unnecessarily Elaborate Plans
+      level: 100%
+
+    - name: Jingle Writing & Branding
+      level: 80%
+
+    - name: Self-Sabotage & Failure Analysis
+      level: 30%
+
+    - name: Nemesis Management
+      level: 10%
+# footer: >
+#   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
